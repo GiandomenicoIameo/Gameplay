@@ -18,8 +18,8 @@ node money.js
 
 ?- 1
 
-1) Inizia la mano il giocatore.
-2) Inizia la mano la CPU.
+1) Il giocatore gioca primo.
+2) La CPU gioca per primo.
 3) Esci.
 
 ?- 2
