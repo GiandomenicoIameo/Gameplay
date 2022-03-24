@@ -31,7 +31,7 @@ sudo apt install npm
 ```
 
 ```bash
-# Verificare la versione di *npm* installata :
+# Verificare la versione di npm installata :
 npm -v
 ```
 
