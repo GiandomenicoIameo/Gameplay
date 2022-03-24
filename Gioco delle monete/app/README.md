@@ -7,3 +7,7 @@
 # 4. Chi prende l'ultima moneta vince.
 ```
 
+# Dimostrazione del gioco
+
+
+
