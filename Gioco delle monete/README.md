@@ -22,7 +22,9 @@ node -v
 # Installare NPM
 
 ```bash
-# **NPM** è un Package Manager per Node.js ( **Node Package Manager** ) necessario per     # installare moduli e pacchetti da utilizzare con Node.js. Per installare *npm* dare i     # seguenti comandi :
+# __NPM__ è un Package Manager per Node.js ( Node Package Manager ) necessario per     
+# installare moduli e pacchetti da utilizzare con Node.js. Per installare *npm* dare i     
+# seguenti comandi :
 
 sudo apt update
 sudo apt install npm
