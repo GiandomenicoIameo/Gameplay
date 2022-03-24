@@ -9,5 +9,54 @@
 
 # Dimostrazione del gioco
 
+```bash
+# Per avviare il gioco è sufficiente digitare da terminale il seguente comando :
+node money.js
+
+1) Gioca.
+2) Esci.
+
+?- 1
+
+1) Inizia la mano il giocatore.
+2) Inizia la mano la CPU.
+3) Esci.
+
+?- 2
+
+{ Pitagora, Euclide, Eulero, Gauss, Riemann, Fibonacci, Newton }
+[ OK ] Turno CPU. 
+[ *** ] Calcolo..
+[ OK ] La CPU ne cattura 1
+
+{ Pitagora, Euclide, Eulero, Gauss, Riemann, Fibonacci }
+
+1) Scegli 2 elementi.
+2) Scegli 1 elemento.
+
+[ OK ] Turno Player
+?- 2
+
+{ Pitagora, Euclide, Eulero, Gauss }
+[ OK ] Turno CPU. 
+[ *** ] Calcolo..
+[ OK ] La CPU ne cattura 1
+
+{ Pitagora, Euclide, Eulero }
+
+1) Scegli 2 elementi.
+2) Scegli 1 elemento.
+
+[ OK ] Turno Player
+?- 2
+
+{ Pitagora }
+[ OK ] Turno CPU. 
+[ *** ] Calcolo..
+[ OK ] La CPU ne cattura 1
+
+{ }
+```
+
 
 
