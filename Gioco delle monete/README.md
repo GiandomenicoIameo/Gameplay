@@ -14,7 +14,7 @@ Per verificare che **Node.js sia stato installato correttamente**, è sufficient
 node -v
 ```
 
-Con questo comando ti verrà mostrata la versione di Node.js che hai  appena installato.
+Con questo comando verrà mostrata la versione di Node.js appena installata.
 
 # Installare NPM
 
