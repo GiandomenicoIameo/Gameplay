@@ -28,6 +28,7 @@ sudo apt update
 sudo apt install npm
 
 # Verificare la versione di npm installata :
+
 npm -v
 ```
 # Installazione dei moduli *sync-prompt* e *sleep*
