@@ -39,6 +39,8 @@ npm -v
 
 npm install prompt-sync
 npm install sleep
+
+# I moduli devono essere installati nella stessa directory del programma ( app/ ).
 ```
 
 
