@@ -18,7 +18,7 @@ Con questo comando ti verrà mostrata la versione di Node.js che hai  appena ins
 
 # Installare NPM
 
-**NPM** è un Package Manager per Node.js ( **Node Package Manager **) necessario per installare moduli e pacchetti da utilizzare con Node.js. Per installare *npm* dare i seguenti comandi :
+**NPM** è un Package Manager per Node.js ( **Node Package Manager** ) necessario per installare moduli e pacchetti da utilizzare con Node.js. Per installare *npm* dare i seguenti comandi :
 
 ```bash
 sudo apt update
