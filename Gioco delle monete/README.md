@@ -31,16 +31,6 @@ sudo apt install npm
 
 npm -v
 ```
-# Installazione dei moduli *sync-prompt* e *sleep*
-
-```bash
-# Affichè il programma del gioco delle monete possa funzionare correttamente, sarà necessario installare
-# i moduli : sync-prompt e sleep. Per farlo occorre digitare da terminale i seguenti comandi :
-
-npm install sync-prompt
-npm install sleep
-```
-
 
 
 
