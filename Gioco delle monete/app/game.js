@@ -4,7 +4,7 @@ const scanner         = require( "./scanner.js" );
 
 function player( stack ) {
 
-  instructions.take();
+  instructions.choice();
   console.log( "[ OK ] Turno Player." );
 
   switch( scanner.input() ) {
@@ -48,7 +48,7 @@ function cpu( stack ) {
 
 function play( stack ) {
 
-  instructions.match();
+  instructions.turns();
 
   switch( scanner.input() ) {
     case 1 :
