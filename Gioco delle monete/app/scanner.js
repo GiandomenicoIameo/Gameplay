@@ -1,8 +1,8 @@
 const prompt = require( 'prompt-sync' )();
 
-function input( message ) {
+function input() {
 
-  const scanner = prompt( message + "?- " );
+  const scanner = prompt( "?- " );
   const value = Number( scanner );
 
   return value;
