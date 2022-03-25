@@ -24,12 +24,12 @@ node money.js
 
 ?- 2
 
-{ Pitagora, Euclide, Eulero, Gauss, Riemann, Fibonacci, Newton }
+{ 1 cent, 2 cent, 5 cent, 10 cent, 20 cent, 50 cent, 1 euro }
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
 [ OK ] La CPU ne cattura 1
 
-{ Pitagora, Euclide, Eulero, Gauss, Riemann, Fibonacci }
+{ 1 cent, 2 cent, 5 cent, 10 cent, 20 cent, 50 cent }
 
 1) Scegli un elemento.
 2) Scegli due elementi.
@@ -37,12 +37,12 @@ node money.js
 [ OK ] Turno Player
 ?- 2
 
-{ Pitagora, Euclide, Eulero, Gauss }
+{ 1 cent, 2 cent, 5 cent, 10 cent }
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
 [ OK ] La CPU ne cattura 1
 
-{ Pitagora, Euclide, Eulero }
+{ 1 cent, 2 cent, 5 cent }
 
 1) Scegli un elemento.
 2) Scegli due elementi.
@@ -50,13 +50,12 @@ node money.js
 [ OK ] Turno Player
 ?- 2
 
-{ Pitagora }
+{ 1 cent }
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
 [ OK ] La CPU ne cattura 1
 
 { }
 ```
-
 
 
