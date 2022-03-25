@@ -21,7 +21,7 @@ node -v
 
 ```bash
 # NPM è un Package Manager per Node.js ( Node Package Manager ) necessario per     
-# installare moduli e pacchetti da utilizzare con Node.js. Per installare *npm* dare i     
+# installare moduli e pacchetti da utilizzare con Node.js. Per installare npm dare i     
 # seguenti comandi :
 
 sudo apt update
