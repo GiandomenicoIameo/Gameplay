@@ -93,7 +93,7 @@ function start( choice ) {
     case 2 :
           break;
     default:
-          game();
+          start();
           break;
   }
 }
