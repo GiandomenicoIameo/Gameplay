@@ -16,7 +16,7 @@ function make() {
 function member( stack ) {
 
   let string = stack.toString();
-  console.log( "\nPortafogli = [" + string + " ]\n" );
+  console.log( "\nPortafogli = [" + string + " ]" );
 }
 
 module.exports = { make, member };

@@ -27,7 +27,7 @@ function player( stack ) {
 
 function cpu( stack ) {
 
-  console.log( "[ OK ] Turno CPU. " );
+  console.log( "\n[ OK ] Turno CPU. " );
   console.log( "[ *** ] Calcolo.." );
   time.sleep( 3 );
 
