@@ -31,8 +31,8 @@ node money.js
 
 { Pitagora, Euclide, Eulero, Gauss, Riemann, Fibonacci }
 
-1) Scegli 2 elementi.
-2) Scegli 1 elemento.
+1) Scegli un elemento.
+2) Scegli due elementi.
 
 [ OK ] Turno Player
 ?- 2
@@ -44,8 +44,8 @@ node money.js
 
 { Pitagora, Euclide, Eulero }
 
-1) Scegli 2 elementi.
-2) Scegli 1 elemento.
+1) Scegli un elemento.
+2) Scegli due elementi.
 
 [ OK ] Turno Player
 ?- 2
