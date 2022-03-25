@@ -1,11 +1,10 @@
-const list    = require( "./stack.js" );
-const time    = require( "sleep" );
-const menu    = require( "./instructions.js" );
-const scanner = require( "./scanner.js" );
+const list            = require( "./stack.js" );
+const instructions    = require( "./instructions.js" );
+const scanner         = require( "./scanner.js" );
 
 function player( stack ) {
 
-  menu.take();
+  instructions.take();
   console.log( "[ OK ] Turno Player." );
 
   switch( scanner.input() ) {
@@ -26,10 +25,7 @@ function player( stack ) {
 
 function cpu( stack ) {
 
-  console.log( "\n[ OK ] Turno CPU.. " );
-  time.sleep( 2 );
-  console.log( "[ *** ] Calcolo.." );
-  time.sleep( 3 );
+  instructions.cpu_message();
 
   switch( stack.length ) {
       case 2 :
@@ -52,7 +48,7 @@ function cpu( stack ) {
 
 function play( stack ) {
 
-  menu.match();
+  instructions.match();
 
   switch( scanner.input() ) {
     case 1 :
@@ -82,7 +78,7 @@ function rounds( stack, first, second ) {
 
 function start() {
 
-  menu.init();
+  instructions.init();
 
   switch( scanner.input() ) {
     case 1 :

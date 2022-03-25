@@ -1,3 +1,5 @@
+const time    = require( "sleep" );
+
 function init() {
   console.clear();
   console.log( "1) Gioca." );
@@ -16,4 +18,13 @@ function match() {
   console.log( "3) Esci.\n" );
 }
 
-module.exports = { init, take, match };
+function cpu_message() {
+
+  console.log( "\n[ OK ] Turno CPU.. " );
+  time.sleep( 2 );
+  console.log( "[ *** ] Calcolo.." );
+  time.sleep( 3 );
+
+}
+
+module.exports = { init, take, match, cpu_message };
