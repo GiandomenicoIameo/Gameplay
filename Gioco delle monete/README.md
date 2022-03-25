@@ -6,7 +6,7 @@
 # guida può funzionare bene per Ubuntu e Debian o derivati come Linux Mint,
 # Elementary OS, bash su Windows e gli altri. Anzitutto cominciamo ad aprire 
 # il terminale, se non sai come fare puoi aprire il menu, digitare "terminale" e 
-# cliccare sull'icona che vi appare. Dopodiché eseguire i seguenti # comandi :
+# cliccare sull'icona che appare. Dopodiché eseguire i seguenti comandi :
 
 sudo apt update
 sudo apt install nodejs
