@@ -6,7 +6,7 @@ const scanner = require( "./scanner.js" );
 function player( stack ) {
 
   menu.take();
-  console.log( "[ OK ] Turno Player" );
+  console.log( "[ OK ] Turno Player." );
   let money = scanner.input();
 
   switch( money ) {
