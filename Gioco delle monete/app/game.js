@@ -7,7 +7,7 @@ function player( stack ) {
 
   menu.take();
   console.log( "[ OK ] Turno Player" );
-  let money = scanner.input( "" );
+  let money = scanner.input();
 
   switch( money ) {
     case 1 :
