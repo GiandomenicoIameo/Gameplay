@@ -4,8 +4,8 @@ function init() {
 }
 
 function take() {
-  console.log( "\n1) Scegli un elemento." );
-  console.log( "2) Scegli due elementi.\n" );
+  console.log( "\n1) Scegli una moneta." );
+  console.log( "2) Scegli due monete.\n" );
 }
 
 function match() {
