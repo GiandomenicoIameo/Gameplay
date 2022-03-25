@@ -24,7 +24,6 @@ function cpu_message() {
   time.sleep( 2 );
   console.log( "[ *** ] Calcolo.." );
   time.sleep( 3 );
-
 }
 
 module.exports = { init, take, match, cpu_message };
