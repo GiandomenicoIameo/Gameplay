@@ -67,19 +67,6 @@ function play( stack ) {
   }
 }
 
-function rounds( stack, first, second ) {
-
-  for( let i = 0; i < stack.length; i++ ) {
-          first( stack );
-
-          if( stack.length == 0 ) {
-                  break;
-          } else {
-                  second( stack );
-          }
-  }
-}
-
 function start() {
 
   instructions.init();
@@ -93,6 +80,19 @@ function start() {
   default:
         start();
         break;
+  }
+}
+
+function rounds( stack, first, second ) {
+
+  for( let i = 0; i < stack.length; i++ ) {
+          first( stack );
+
+          if( stack.length == 0 ) {
+                  break;
+          } else {
+                  second( stack );
+          }
   }
 }
 
