@@ -18,7 +18,7 @@ node money.js
 
 ?- 1
 
-1) Il giocatore gioca primo.
+1) Il giocatore gioca per primo.
 2) La CPU gioca per primo.
 3) Esci.
 
