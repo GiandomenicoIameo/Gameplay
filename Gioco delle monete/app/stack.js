@@ -1,13 +1,12 @@
 function make() {
 
-  stack = [
-    " Pitagora" ,
-    " Euclide",
-    " Eulero",
-    " Gauss",
-    " Riemann",
-    " Fibonacci",
-    " Newton"
+  stack = [ 1,
+    2,
+    5,
+    10,
+    20,
+    50,
+    1€
   ];
 
   return stack;
