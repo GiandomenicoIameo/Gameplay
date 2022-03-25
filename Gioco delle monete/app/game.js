@@ -1,5 +1,5 @@
 const list    = require( "./stack.js" );
-const time    = require( 'sleep' );
+const time    = require( "sleep" );
 const menu    = require( "./instructions.js" );
 const scanner = require( "./scanner.js" );
 
