@@ -6,7 +6,7 @@ function init() {
   console.log( "2) Esci.\n" );
 }
 
-function choice() {
+function choice_coins() {
   console.log( "\n1) Prendi una moneta." );
   console.log( "2) Prendi due monete.\n" );
 }
@@ -26,4 +26,4 @@ function cpu_message() {
   time.sleep( 3 );
 }
 
-module.exports = { init, choice, turns, cpu_message };
+module.exports = { init, choice_coins, turns, cpu_message };
