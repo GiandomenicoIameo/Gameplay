@@ -1,17 +1,20 @@
 const time = require( "sleep" );
 
 function init() {
+
   console.clear();
   console.log( "1) Gioca." );
   console.log( "2) Esci.\n" );
 }
 
 function choice_coins() {
+
   console.log( "\n1) Prendi una moneta." );
   console.log( "2) Prendi due monete.\n" );
 }
 
 function turns() {
+  
   console.clear();
   console.log( "\n1) Il giocatore gioca per primo." );
   console.log( "2) La CPU gioca per primo." );
