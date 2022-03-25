@@ -70,7 +70,7 @@ function play( stack ) {
     case 3 :
           break;
     default:
-          turns( stack );
+          play( stack );
           break;
   }
 }
