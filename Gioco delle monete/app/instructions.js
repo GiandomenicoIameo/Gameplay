@@ -10,8 +10,8 @@ function take() {
 
 function match() {
   console.clear();
-  console.log( "\n1) Inizia la mano il giocatore." );
-  console.log( "2) Inizia la mano la CPU." );
+  console.log( "\n1) Il giocatore giocatore gioca per primo." );
+  console.log( "2) La CPU gioca per primo." );
   console.log( "3) Esci.\n" );
 }
 
