@@ -27,35 +27,34 @@ node money.js
 { 1 cent, 2 cent, 5 cent, 10 cent, 20 cent, 50 cent, 1 euro }
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
-[ OK ] La CPU ne cattura 1
+[ OK ] La CPU ne cattura una.
 
 { 1 cent, 2 cent, 5 cent, 10 cent, 20 cent, 50 cent }
 
-1) Scegli un elemento.
-2) Scegli due elementi.
+1) Scegli una moneta.
+2) Scegli due monete.
 
-[ OK ] Turno Player
+[ OK ] Turno Player.
 ?- 2
 
 { 1 cent, 2 cent, 5 cent, 10 cent }
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
-[ OK ] La CPU ne cattura 1
+[ OK ] La CPU ne cattura una.
 
 { 1 cent, 2 cent, 5 cent }
 
-1) Scegli un elemento.
-2) Scegli due elementi.
+1) Scegli una moneta.
+2) Scegli due monete.
 
-[ OK ] Turno Player
+[ OK ] Turno Player.
 ?- 2
 
 { 1 cent }
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
-[ OK ] La CPU ne cattura 1
+[ OK ] La CPU ne cattura una.
 
 { }
 ```
-
 
