@@ -1,12 +1,13 @@
 function make() {
 
-  stack = [ 1,
-    2,
-    5,
-    10,
-    20,
-    50,
-    1€
+  stack = [ 
+    “1 cent ”,
+    “2 cent ”,
+    “5 cent “,
+   “10 cent “,
+   “20 cent “,
+   “50 cent “,
+    “1 euro”
   ];
 
   return stack;
