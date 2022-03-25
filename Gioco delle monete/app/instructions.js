@@ -1,4 +1,4 @@
-const time    = require( "sleep" );
+const time = require( "sleep" );
 
 function init() {
   console.clear();
