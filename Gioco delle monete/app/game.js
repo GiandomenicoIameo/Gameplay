@@ -56,7 +56,7 @@ function cpu( stack ) {
 function play( stack ) {
 
   menu.match();
-  let choice = scanner.input( "" );
+  let choice = scanner.input();
 
   switch( choice ) {
     case 1 :
