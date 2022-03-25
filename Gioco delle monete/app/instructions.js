@@ -4,8 +4,8 @@ function init() {
 }
 
 function take() {
-  console.log( "\n1) Scegli 2 elementi." );
-  console.log( "2) Scegli 1 elemento.\n" );
+  console.log( "\n1) Scegli un elemento." );
+  console.log( "2) Scegli due elementi.\n" );
 }
 
 function match() {
