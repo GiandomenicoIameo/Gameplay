@@ -28,7 +28,7 @@ Portafogli = [ 1¢, 2¢, 5¢, 10¢, 20¢, 50¢, 1€ ]
 
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
-[ OK ] La CPU ne cattura 1.
+[ OK ] La CPU cattura una moneta.
 
 Portafogli = [ 1¢, 2¢, 5¢, 10¢, 20¢, 50¢ ]
 
@@ -42,7 +42,7 @@ Portafogli = [ 1¢, 2¢, 5¢, 10¢ ]
 
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
-[ OK ] La CPU ne cattura 1.
+[ OK ] La CPU cattura una moneta.
 
 Portafogli = [ 1¢, 2¢, 5¢ ]
 
@@ -56,7 +56,7 @@ Portafogli = [ 1¢ ]
 
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
-[ OK ] La CPU ne cattura 1.
+[ OK ] La CPU cattura una moneta.
 
 Portafogli = [ ]
 ```
