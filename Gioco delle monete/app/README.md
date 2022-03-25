@@ -24,12 +24,12 @@ node money.js
 
 ?- 2
 
-{ 1 cent, 2 cent, 5 cent, 10 cent, 20 cent, 50 cent, 1 euro }
+{ 1¢, 2¢, 5¢, 10¢, 20¢, 50¢, 1€ }
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
 [ OK ] La CPU ne cattura 1.
 
-{ 1 cent, 2 cent, 5 cent, 10 cent, 20 cent, 50 cent }
+{ 1¢, 2¢, 5¢, 10¢, 20¢, 50¢ }
 
 1) Scegli una moneta.
 2) Scegli due monete.
@@ -37,12 +37,12 @@ node money.js
 [ OK ] Turno Player.
 ?- 2
 
-{ 1 cent, 2 cent, 5 cent, 10 cent }
+{ 1¢, 2¢, 5¢, 10¢ }
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
 [ OK ] La CPU ne cattura 1.
 
-{ 1 cent, 2 cent, 5 cent }
+{ 1¢, 2¢, 5¢ }
 
 1) Scegli una moneta.
 2) Scegli due monete.
@@ -50,7 +50,7 @@ node money.js
 [ OK ] Turno Player.
 ?- 2
 
-{ 1 cent }
+{ 1¢ }
 [ OK ] Turno CPU. 
 [ *** ] Calcolo..
 [ OK ] La CPU ne cattura 1.
