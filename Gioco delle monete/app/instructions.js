@@ -1,4 +1,5 @@
 function init() {
+  console.clear();
   console.log( "1) Gioca." );
   console.log( "2) Esci.\n" );
 }

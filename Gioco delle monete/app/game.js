@@ -7,9 +7,8 @@ function player( stack ) {
 
   menu.take();
   console.log( "[ OK ] Turno Player." );
-  let money = scanner.input();
 
-  switch( money ) {
+  switch( scanner.input() ) {
     case 1 :
           stack.pop();
           list.member( stack );
@@ -27,11 +26,10 @@ function player( stack ) {
 
 function cpu( stack ) {
 
-  console.log( "\n[ OK ] Turno CPU. " );
+  console.log( "\n[ OK ] Turno CPU.. " );
+  time.sleep( 2 );
   console.log( "[ *** ] Calcolo.." );
   time.sleep( 3 );
-
-  let element;
 
   switch( stack.length ) {
       case 2 :
@@ -39,26 +37,24 @@ function cpu( stack ) {
       case 5 :
             stack.pop();
             stack.pop();
-            element = 2;
+            console.log( "[ OK ] La CPU cattura due monete." );
             break;
       case 1 :
       case 4 :
       case 6 :
       case 7 :
             stack.pop();
-            element = 1;
+            console.log( "[ OK ] La CPU cattura una moneta." );
             break;
   }
-  console.log( "[ OK ] La CPU ne cattura " + element + "." );
   list.member( stack );
 }
 
 function play( stack ) {
 
   menu.match();
-  let choice = scanner.input();
 
-  switch( choice ) {
+  switch( scanner.input() ) {
     case 1 :
           list.member( stack );
           rounds( stack, player, cpu );
@@ -84,9 +80,11 @@ function rounds( stack, first, second ) {
   }
 }
 
-function start( choice ) {
+function start() {
 
-  switch( choice ) {
+  menu.init();
+
+  switch( scanner.input() ) {
     case 1 :
           play( list.make() );
           break;
