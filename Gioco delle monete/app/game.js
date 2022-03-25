@@ -49,7 +49,7 @@ function cpu( stack ) {
             element = 1;
             break;
   }
-  console.log( "[ OK ] La CPU ne cattura " + element + “.” );
+  console.log( "[ OK ] La CPU ne cattura " + element + "." );
   list.member( stack );
 }
 
