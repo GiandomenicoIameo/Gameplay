@@ -14,7 +14,7 @@ sudo apt install nodejs
 # Per verificare che Node.js sia stato installato correttamente è sufficiente          
 # digitare questo comando :
 
-node -v
+node --version
 ```
 
 # Installare NPM
@@ -29,7 +29,7 @@ sudo apt install npm
 
 # Verificare la versione di npm installata :
 
-npm -v
+npm --version
 ```
 # Installazione dei moduli
 
