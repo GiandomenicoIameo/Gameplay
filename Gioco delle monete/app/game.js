@@ -31,14 +31,14 @@ function cpu( stack ) {
   case 5:
         stack.pop();
         stack.pop();
-        output.cpu_message( "due monete" );
+        output.cpu_message( "due monete." );
         break;
   case 1:
   case 4:
   case 6:
   case 7:
         stack.pop();
-        output.cpu_message( "una moneta" );
+        output.cpu_message( "una moneta." );
         break;
   }
   list.member( stack );
