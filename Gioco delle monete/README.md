@@ -35,9 +35,8 @@ npm --version
 
 ```bash
 # Affinché il programma delle monete possa funzionare correttamente sarà necessario installare i seguenti moduli :
-# prompt-sync e sleep. Per farlo sono sufficienti i seguenti comandi :
+# prompt-sync e sleep. Per farlo è sufficiente il seguente comando :
 
-npm update
 npm install prompt-sync sleep
 
 # I moduli devono essere installati nella stessa directory del programma ( app/ ).
