@@ -94,8 +94,6 @@ function start() {
   }
 }
 
-<<<<<<< HEAD
-=======
 function rounds( stack, first, second ) {
 
    while( stack.length != 0 ) {
@@ -109,5 +107,4 @@ function rounds( stack, first, second ) {
    }
 }
 
->>>>>>> b391b836a1cd855dddcd1e789a1650e64f1f92ee
 module.exports = { start };
