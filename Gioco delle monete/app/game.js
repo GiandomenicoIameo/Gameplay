@@ -1,6 +1,6 @@
-const list            = require( "./stack.js" );
-const output          = require( "./instructions.js" );
-const scanner         = require( "./scanner.js" );
+const list     = require( "./stack.js" );
+const output   = require( "./instructions.js" );
+const scanner  = require( "./scanner.js" );
 
 function player( stack ) {
 
