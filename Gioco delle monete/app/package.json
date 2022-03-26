@@ -1,0 +1,22 @@
+{
+     "name": "coins_game",
+     "version": "1.0.0",
+     "main": "coins_game.js",
+     "scripts": {
+          "test": "node coins_game.js"
+     },
+     "repository": {
+          "type": "git",
+          "url": "git+https://github.com/GiandomenicoIameo/Gameplay.git"
+     },
+     "author": "Giandomenico Iameo",
+     "license": "ISC",
+     "bugs": {
+          "url": "https://github.com/GiandomenicoIameo/Gameplay/issues"
+     },
+     "homepage": "https://github.com/GiandomenicoIameo/Gameplay#readme",
+     "dependencies": {
+          "prompt-sync": "^4.2.0",
+          "sleep": "^6.3.0"
+     }
+}
