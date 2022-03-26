@@ -14,19 +14,21 @@ function choice_coins() {
 }
 
 function turns() {
-  
+
   console.clear();
   console.log( "\n1) Il giocatore gioca per primo." );
   console.log( "2) La CPU gioca per primo." );
   console.log( "3) Esci.\n" );
 }
 
-function cpu_message() {
+function cpu_message( money ) {
 
   console.log( "\n[ OK ] Turno CPU.. " );
   time.sleep( 2 );
   console.log( "[ *** ] Calcolo.." );
   time.sleep( 3 );
+  console.log( "[ OK ] La CPU cattura " + money );
+  time.sleep( 2 );
 }
 
 module.exports = { init, choice_coins, turns, cpu_message };
