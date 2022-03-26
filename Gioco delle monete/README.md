@@ -39,6 +39,7 @@ npm --version
 
 npm install
 
+# Il comando deve essere eseguito nella stessa directory del progetto ( app/ ).
 ```
 
 
