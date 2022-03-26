@@ -85,15 +85,15 @@ function start() {
 
 function rounds( stack, first, second ) {
 
-  for( let i = 0; i < stack.length; i++ ) {
-          first( stack );
+   while( stack.length != 0 ) {
+           first( stack );
 
-          if( stack.length == 0 ) {
-                  break;
-          } else {
-                  second( stack );
-          }
-  }
+           if( stack.length == 0 ) {
+                   break;
+           } else {
+                   second( stack );
+           }
+   }
 }
 
 module.exports = { start };
