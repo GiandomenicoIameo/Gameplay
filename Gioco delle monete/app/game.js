@@ -65,19 +65,6 @@ function play( stack ) {
   }
 }
 
-function rounds( stack, first, second ) {
-
-  while( stack.length != 0 ) {
-          first( stack );
-
-          if( stack.length == 0 ) {
-                  break;
-          } else {
-                  second( stack );
-          }
-  }
-}
-
 function start() {
 
   output.init();
