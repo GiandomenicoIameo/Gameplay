@@ -94,4 +94,20 @@ function start() {
   }
 }
 
+<<<<<<< HEAD
+=======
+function rounds( stack, first, second ) {
+
+   while( stack.length != 0 ) {
+           first( stack );
+
+           if( stack.length == 0 ) {
+                   break;
+           } else {
+                   second( stack );
+           }
+   }
+}
+
+>>>>>>> b391b836a1cd855dddcd1e789a1650e64f1f92ee
 module.exports = { start };
