@@ -1,6 +1,6 @@
 # Come installare Node.js
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
 
 ```bash
 # Prima di capire come installare Node.js sul nostro coputer locale, bisogna considerare 
