@@ -1,8 +1,9 @@
 # Come installare Node.js
 
-$$
-e^i + 1 = 0
-$$
+\newline
+2 + 2 = 4 \newline
+2 + 3 = 5 \newline
+\frac{2}{4} = 0.5
 
 ```bash
 # Prima di capire come installare Node.js sul nostro coputer locale, bisogna considerare 
