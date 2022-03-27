@@ -1,5 +1,12 @@
 # Come installare Node.js
 
+<a href="https://github.com/EnjoyGeek077" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>  
+<a href="https://stackoverflow.com/users/endless077" target="_blank">
+<img src=https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white alt=stackoverflow style="margin-bottom: 5px;" />
+</a>
+
 ```bash
 # Prima di capire come installare Node.js sul nostro coputer locale, bisogna considerare 
 # che il gestore di pacchetti cambia in base alle diverse versioni di Linux, quindi questa 
