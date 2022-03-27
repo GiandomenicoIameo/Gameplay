@@ -1,5 +1,9 @@
 # Come installare Node.js
 
+```math
+e^i + 1 = 0
+```
+
 ```bash
 # Prima di capire come installare Node.js sul nostro coputer locale, bisogna considerare 
 # che il gestore di pacchetti cambia in base alle diverse versioni di Linux, quindi questa 
