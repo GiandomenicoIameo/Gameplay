@@ -1,5 +1,7 @@
 # Come installare Node.js
 
+$$\lim_{x \to 0^+} \dfrac{1}{x} = \infty$$
+
 ```bash
 # Prima di capire come installare Node.js sul nostro coputer locale, bisogna considerare 
 # che il gestore di pacchetti cambia in base alle diverse versioni di Linux, quindi questa 
