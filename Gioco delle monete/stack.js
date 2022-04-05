@@ -1,6 +1,6 @@
 function make() {
 
-  stack = [
+  var stack = [
     " 1"  + '\u00A2',
     " 2"  + '\u00A2',
     " 5"  + '\u00A2',
