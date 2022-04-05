@@ -10,12 +10,12 @@ function player( stack ) {
   switch( scanner.input() ) {
   case 1:
         stack.pop();
-        list.member( stack );
+        console.table( stack );
         break;
   case 2:
         stack.pop();
         stack.pop();
-        list.member( stack );
+        console.table( stack );
         break;
   default:
         player( stack );
@@ -41,7 +41,7 @@ function cpu( stack ) {
         output.cpu_message( "una moneta." );
         break;
   }
-  list.member( stack );
+  console.table( stack );
 }
 
 function play( stack ) {
@@ -50,11 +50,11 @@ function play( stack ) {
 
   switch( scanner.input() ) {
   case 1:
-        list.member( stack );
+        console.table( stack );
         rounds( stack, player, cpu );
         break;
   case 2:
-        list.member( stack );
+        console.table( stack );
         rounds( stack, cpu, player );
         break;
   case 3:

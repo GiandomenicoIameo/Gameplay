@@ -13,10 +13,4 @@ function make() {
   return stack;
 }
 
-function member( stack ) {
-
-  let string = stack.toString();
-  console.log( "\nPortafogli = [" + string + " ]" );
-}
-
-module.exports = { make, member };
+module.exports = { make };
