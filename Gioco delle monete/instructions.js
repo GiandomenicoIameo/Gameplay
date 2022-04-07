@@ -25,7 +25,7 @@ function cpu_message( money ) {
 
   console.log( "\n[ OK ] Turno CPU.. " );
   time.sleep( 2 );
-  console.log( "[ *** ] Calcolo.." );
+  console.log( "[ * ] Calcolo.." );
   time.sleep( 3 );
   console.log( "[ OK ] La CPU cattura " + money );
   time.sleep( 2 );
