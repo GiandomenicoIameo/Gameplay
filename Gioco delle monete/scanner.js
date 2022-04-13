@@ -2,10 +2,10 @@ const prompt = require( "prompt-sync" )();
 
 function input() {
 
-  const scanner = prompt( "?- " );
-  const value = Number( scanner );
+    const scanner = prompt( "?- " );
+    const value = Number( scanner );
 
-  return value;
+    return value;
 }
 
 module.exports = { input };

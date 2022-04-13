@@ -4,86 +4,86 @@ const scanner  = require( "./scanner.js" );
 
 function player( stack ) {
 
-  output.choice_coins();
-  console.log( "[ OK ] Turno Player." );
+    output.choice_coins();
+    console.log( "[ OK ] Turno Player." );
 
-  switch( scanner.input() ) {
-  case 1:
-        stack.pop();
-        console.table( stack );
-        break;
-  case 2:
-        stack.pop();
-        stack.pop();
-        console.table( stack );
-        break;
-  default:
-        player( stack );
-        break;
-  }
+    switch( scanner.input() ) {
+    case 1:
+          stack.pop();
+          console.table( stack );
+          break;
+    case 2:
+          stack.pop();
+          stack.pop();
+          console.table( stack );
+          break;
+    default:
+          player( stack );
+          break;
+    }
 }
 
 function cpu( stack ) {
 
-  switch( stack.length ) {
-  case 2:
-  case 3:
-  case 5:
-        stack.pop();
-        stack.pop();
-        output.cpu_message( "due monete." );
-        break;
-  case 1:
-  case 4:
-  case 6:
-  case 7:
-        stack.pop();
-        output.cpu_message( "una moneta." );
-        break;
-  }
-  console.table( stack );
+    switch( stack.length ) {
+    case 2:
+    case 3:
+    case 5:
+          stack.pop();
+          stack.pop();
+          output.cpu_message( "due monete." );
+          break;
+    case 1:
+    case 4:
+    case 6:
+    case 7:
+          stack.pop();
+          output.cpu_message( "una moneta." );
+          break;
+    }
+    console.table( stack );
 }
 
 function play( stack ) {
 
-  output.turns();
+    output.turns();
 
-  switch( scanner.input() ) {
-  case 1:
-        console.table( stack );
-        rounds( stack, player, cpu );
-        break;
-  case 2:
-        console.table( stack );
-        rounds( stack, cpu, player );
-        break;
-  case 3:
-        break;
-  default:
-        play( stack );
-        break;
-  }
+    switch( scanner.input() ) {
+    case 1:
+          console.table( stack );
+          rounds( stack, player, cpu );
+          break;
+    case 2:
+          console.table( stack );
+          rounds( stack, cpu, player );
+          break;
+    case 3:
+          break;
+    default:
+          play( stack );
+          break;
+    }
 }
 
 function start() {
 
-  output.init();
+    output.init();
 
-  switch( scanner.input() ) {
-  case 1:
-        play( list.make() );
-        break;
-  case 2:
-        break;
-  default:
-        start();
-        break;
-  }
+    switch( scanner.input() ) {
+    case 1:
+          play( list.make() );
+          break;
+    case 2:
+          break;
+    default:
+          start();
+          break;
+    }
 }
 
 function rounds( stack, first, second ) {
 
-   while( stack.length != 0 ) {
+    while( stack.length != 0 ) {
            first( stack );
 
            if( stack.length == 0 ) {
@@ -91,7 +91,7 @@ function rounds( stack, first, second ) {
            } else {
                    second( stack );
            }
-   }
+    }
 }
 
 module.exports = { start };
