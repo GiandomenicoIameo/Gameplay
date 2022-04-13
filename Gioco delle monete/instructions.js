@@ -23,12 +23,21 @@ function turns() {
 
 function cpu_message( money ) {
 
+<<<<<<< HEAD
     console.log( "\n[ OK ] Turno CPU.. " );
     time.sleep( 2 );
     console.log( "[ * ] Calcolo.." );
     time.sleep( 3 );
     console.log( "[ OK ] La CPU cattura " + money );
     time.sleep( 2 );
+=======
+  console.log( "\n[ OK ] Turno CPU.. " );
+  time.sleep( 2 );
+  console.log( "[ * ] Calcolo.." );
+  time.sleep( 3 );
+  console.log( "[ OK ] La CPU cattura " + money );
+  time.sleep( 2 );
+>>>>>>> 448905d4f073564a15e759b24c169c445d1e0cb4
 }
 
 module.exports = { init, choice_coins, turns, cpu_message };

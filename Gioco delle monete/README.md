@@ -67,40 +67,73 @@ node money.js
 3) Esci.
 
 ?- 2
-
-Portafogli = [ 1¢, 2¢, 5¢, 10¢, 20¢, 50¢, 1€ ]
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│    0    │ ' 1¢'  │
+│    1    │ ' 2¢'  │
+│    2    │ ' 5¢'  │
+│    3    │ ' 10¢' │
+│    4    │ ' 20¢' │
+│    5    │ ' 50¢' │
+│    6    │ ' 1€'  │
+└─────────┴────────┘
 
 [ OK ] Turno CPU.. 
-[ *** ] Calcolo..
+[ * ] Calcolo..
 [ OK ] La CPU cattura una moneta.
-
-Portafogli = [ 1¢, 2¢, 5¢, 10¢, 20¢, 50¢ ]
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│    0    │ ' 1¢'  │
+│    1    │ ' 2¢'  │
+│    2    │ ' 5¢'  │
+│    3    │ ' 10¢' │
+│    4    │ ' 20¢' │
+│    5    │ ' 50¢' │
+└─────────┴────────┘
 
 1) Prendi una moneta.
 2) Prendi due monete.
 
 [ OK ] Turno Player.
 ?- 2
-
-Portafogli = [ 1¢, 2¢, 5¢, 10¢ ]
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│    0    │ ' 1¢'  │
+│    1    │ ' 2¢'  │
+│    2    │ ' 5¢'  │
+│    3    │ ' 10¢' │
+└─────────┴────────┘
 
 [ OK ] Turno CPU.. 
-[ *** ] Calcolo..
+[ * ] Calcolo..
 [ OK ] La CPU cattura una moneta.
-
-Portafogli = [ 1¢, 2¢, 5¢ ]
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│    0    │ ' 1¢'  │
+│    1    │ ' 2¢'  │
+│    2    │ ' 5¢'  │
+└─────────┴────────┘
 
 1) Prendi una moneta.
 2) Prendi due monete.
 
 [ OK ] Turno Player.
 ?- 2
-
-Portafogli = [ 1¢ ]
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│    0    │ ' 1¢'  │
+└─────────┴────────┘
 
 [ OK ] Turno CPU.. 
-[ *** ] Calcolo..
+[ * ] Calcolo..
 [ OK ] La CPU cattura una moneta.
-
-Portafogli = [ ]
+┌─────────┐
+│ (index) │
+├─────────┤
+└─────────┘
 ```
